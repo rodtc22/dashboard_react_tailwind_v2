@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <>
       {/* Sidebar */}
-      <div className={`bg-primary-900 h-full w-[70%] fixed md:w-[40%] lg:w-full lg:static  transition-all duration-300 ${showMenu? "bottom-0" : "-bottom-full"}`}>
+      <div className={`bg-primary-900 z-50 h-full w-[70%] fixed md:w-[40%] lg:w-full lg:static  transition-all duration-300 ${showMenu? "bottom-0" : "-bottom-full"}`}>
         {/* Profile */}
         <div className="flex flex-col  gap-2 justify-center p-8 items-center h-[30vh]">
           <img
@@ -80,7 +80,7 @@ const Sidebar = () => {
 
       {/* Button mobile */}
       <button
-        className="lg:hidden fixed right-4 bottom-4 text-2xl rounded-full p-3 text-white bg-primary-900 hover:bg-primary-300"
+        className="lg:hidden fixed z-50 right-4 bottom-4 text-2xl rounded-full p-3 text-white bg-primary-900 hover:bg-primary-300"
         onClick={() => { setShowMenu(!showMenu); }}
       >
         {showMenu? <RiCloseLine /> : <RiMore2Fill />}
