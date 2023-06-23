@@ -18,5 +18,8 @@ npm install react-icons --save
 ## [Formateador de codigo para vscode]
 (https://levelup.gitconnected.com/automatically-format-code-in-visual-studio-code-when-working-with-react-c48674a12dc5)
 
+## Colorear indentacion 
+Rainbow indendt
+
 ## Inspiracion
 https://jt-ui.com/paginas/dashboards/dashboard-profile
